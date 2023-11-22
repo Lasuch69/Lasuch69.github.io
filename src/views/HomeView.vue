@@ -1,9 +1,15 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import Hero from '../components/Hero.vue'
+import ProfileBanner from '../components/ProfileBanner.vue'
+import AboutSection from '../components/AboutSection.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <Hero />
+    <ProfileBanner />
+    <AboutSection />
   </main>
 </template>
+
+<style scoped></style>
